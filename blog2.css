@@ -1,0 +1,550 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	width: 100%;
+	height: 2000px;
+}
+
+/**MENU**/
+nav ul .kiri img{
+    margin-left: 20px;
+}
+nav ul li{
+    color: black;
+    font-size: 16px;
+    float: left;
+    list-style: none;
+    font-family: Arial;
+    padding: 12px;
+    padding-top: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li ul {display: none;}
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+}
+nav ul li ul {position: absolute;}
+
+nav ul li ul li {
+    float: none;
+    position: relative;
+    background: white;
+}
+
+nav ul li a:hover {
+    color: turquoise;
+}
+
+nav ul .kanan li img{
+    width: 27px;
+    padding-top: 8px;
+    padding-left: 180px;
+}
+
+nav ul .kanan li h1 {
+    font-family: Arial;
+    color: black;
+    font-size: 16px;
+    padding-left: 215px;
+    margin-top: -48px;
+}
+
+nav .gambar img{
+    width: 30px;
+    background: #ff4c54;
+    padding: 30px 25px;
+    margin-left: 70px;
+    position: relative;
+    float: right;
+}
+
+
+.foto img{
+    margin: auto;
+    width: 100%;
+
+}
+
+.foto .title1{
+    font-size: 200px;
+    font-family: Kabut Hitam;
+    position: absolute;
+    top: 60%;
+    color: white;
+    transform: translate(50%);
+    white-space: nowrap;
+    padding-left: 150px;
+    text-align: center;
+    margin: auto;
+    left: 10%;
+}
+
+.foto .title2{
+    left: 15%;
+}
+
+.foto .title1 .title2{
+    font-size: 20px;
+    font-family: Arial;
+    position: absolute;
+    white-space: nowrap;
+    margin-left: -15px;
+    margin-top: -35px;
+    margin-bottom: 20px;
+}
+
+.slider{
+	margin: 0px;
+	position: relative;
+}
+
+.slider img{
+	width: 100%;
+	height: 600px;
+	margin-top: 80px;
+}
+
+.slider .judul h1{
+	position: absolute;
+	color: white;
+	font-size: 120px;
+	top: 25%;
+	left: 540px;
+	font-family: brush script mt;
+}
+
+.slider .keterangan p{
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	top: 45%;
+	left: 472px;
+	font-family: arial;
+}
+
+/*isi blog*/
+
+.isi{
+	overflow: hidden;
+}
+
+.isi .kiri{
+	float: left;
+	margin-left: 100px;
+}
+
+.isi .kiri img{
+	margin-top: 100px;
+	width: 700px;
+	height: 400px;
+	position: relative;
+}
+
+.isi .kiri .bagian .tgl h1{
+	position: absolute;
+	width: 50px;
+	height: 60px;
+	text-align: center;
+	padding: 20px 20px;
+	font-size: 25px;
+	background: #ff4c54;
+	color: white;
+	margin-top:-80px;
+	margin-left: 30px;
+	border-radius: 10px;
+}
+
+.isi .kiri .bagian .tgl h1:hover{
+	background: none;
+	color:#ff4c54;
+}
+
+.isi .kiri .bagian h2{
+	margin-top: 30px;
+	margin-left: 30px;
+	word-spacing: 2px;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.isi .kiri .bagian h2:hover{
+	color: #ff4c54;
+}
+
+.isi .kiri .bagian p{
+	margin-left: 30px;
+	max-width: 680px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: #808080;
+}
+
+.isi .kiri .bagian .komen{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.isi .kiri .bagian .komen img{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-right: 10px;
+}
+
+.isi .kiri .bagian .komen h1{
+	padding-top: 2px;
+	font-size: 20px;
+}
+
+.isi .kiri .bagian .komen h1:hover{
+	color: #ff4c54;
+}
+
+.isi .kanan{
+	float: right;
+	margin-right: 50px;
+	margin-top: 100px;
+}
+
+.isi .kanan .search input{
+	width: 330px;
+	height: 50px;
+	float: left;
+	padding-left: 30px;
+	border: 1px solid silver;
+}
+
+.isi .kanan .search img{
+	width: 25px;
+	height: 25px;
+	margin-top: 15px;
+	margin-left: -35px;
+}
+
+.isi .kanan .search .tombol{
+	margin-top: 20px;
+	text-align: center;
+	background: limegreen;
+	padding: 10px 0px;
+	font-size: 12px;
+	color: white;
+}
+
+.isi .kanan .search .tombol:hover{
+	background: #ff4c54;
+}
+
+.isi .kanan .kategori{
+	margin-top: 50px;
+}
+
+.isi .kanan .kategori h1{
+	font-size: 30px;
+	border-bottom: 1px solid silver;
+	margin-bottom: 10px;
+}
+
+.isi .kanan .kategori h2{
+	padding-top: 25px;
+	border-bottom: 1px solid silver;
+	font-size: 16px;
+}
+
+.isi .kanan .kategori h2:hover{
+	color: #ff4c54;
+}
+
+.isi .kanan .recent h1{
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid silver;
+}
+
+.isi .kanan .recent .bagian{
+	margin-bottom: 40px;
+}
+
+.isi .kanan .recent .bagian img{
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+
+.isi .kanan .recent .bagian h2{
+	padding-top: 10px;
+	font-size: 16px;
+}
+
+.isi .kanan .recent .bagian h2:hover{
+	color: #ff4c54;
+}
+
+.isi .kanan .recent .bagian h3{
+	color: #808080;
+	font-size: 16px;
+}
+
+.isi .kanan .tag{
+	margin-top: 80px;
+	max-width: 350px;
+}
+
+.isi .kanan .tag h1{
+	margin-bottom: 5px;
+	border-bottom: 1px solid silver;
+	font-size: 30px;
+}
+
+
+.isi .kanan .tag ul li{
+	font-size: 16px;
+	float: left;
+	width: 80px;
+	height: auto;
+	list-style: none;
+	background: #dae2eb;
+	padding: 5px;
+	margin-top: 10px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+.isi .kanan .tag ul li:hover{
+	background: #ff4c54;
+	color: white;
+}
+
+.isi .kanan .feed{
+	float: left;
+	margin-top: 100px;
+}
+
+.isi .kanan .feed h1{
+	font-size: 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid silver;
+}
+
+.isi .kanan .feed img{
+	width: 80px;
+	height: 80px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.isi .kanan .feed .akhir{
+	margin-top: 50px;
+}
+
+.isi .kanan .feed .akhir input{
+	width: 330px;
+	height: 50px;
+	float: left;
+	padding-left: 30px;
+	border: 1px solid silver;
+}
+
+.isi .kanan .feed .akhir h2{
+	margin-top: 100px;
+	text-align: center;
+	background: limegreen;
+	padding: 15px 0px;
+	font-size: 20px;
+	color: white;
+}
+
+.isi .kanan .feed .akhir h2:hover{
+	background: #ff4c54;
+}
+
+/*akhir isi blog*/
+
+/*pagination*/
+.pagination{
+	width: 700px;
+	margin: auto;
+	padding: 15px;
+	margin-top: 100px;
+}
+
+.pagination a{
+	padding: 10px 15px;
+	margin-left:20px ;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	border: 1px solid silver;
+	text-align: center;
+}
+
+
+.pagination a:hover:not(.active){
+	background: silver;
+	color: #ff4c54;
+}
+
+.pagination a.active{
+	color: black;
+	border: 4px solid blue;
+}
+
+/*akhir pagination*/
+
+
+/*footer*/
+footer{
+	margin-top: 100px;
+	width: 100%;
+	height: 540px;
+	background: #00002c;
+	overflow: hidden;
+}
+
+footer h2:hover{
+	color: #ff4c54;
+}
+
+footer .kiri{
+	float: left;
+	padding-top: 80px;
+	padding-left: 50px;
+}
+
+footer .kiri .x1{
+	float: left;
+}
+
+footer .kiri .x1 img{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+footer .kiri .x1 h1{
+	color: white;
+	margin-top: -80px;
+	margin-left: 100px;
+	font-size: 20px;
+}
+
+footer .kiri .x1 .pengenalan{
+	margin-top: 50px;
+	font-size: 16px;
+}
+
+footer .kiri .x1 .icon img{
+	width: 30px;
+	height: 30px;
+	padding-top: 30px;
+	padding-left: 2px;
+	border-radius: 0px;
+}
+footer .kiri .x1 p{
+	color: white;
+	margin-top: 10px;
+}
+
+footer .kiri .x2{
+	float: right;
+	margin-top: 20px ;
+	margin-left: 100px;
+	font-size: 12px;
+}
+
+footer .kiri .x2 h1{
+	color: white;
+	margin-bottom: 30px;
+}
+
+footer .kiri .x2 h2{
+	color: white;
+	padding-bottom:10px ;
+}
+
+footer .kiri .x2 h2:hover{
+	color: #ff4c54;
+}
+
+footer .kanan{
+	float: right;
+	overflow: hidden;
+	font-size: 12px;
+	margin-top: 102px;
+}
+
+footer .kanan .x1{
+	float: left;
+	color: white;
+	margin-right: 220px;
+	margin-top: 1px;
+}
+
+footer .kanan .x1 h1{
+	margin-bottom: 25px;
+}
+
+footer .kanan .x1 h2{
+	padding-bottom: 10px;
+}
+
+footer .kanan .x1 .xx1{
+	float: left;
+}
+
+footer .kanan .x1 .xx2{
+	float: right;
+}
+
+footer .kanan .x2{
+	float: right;
+	color: white;
+	margin-left: -100px;
+}
+
+footer .kanan .x2 h1{
+	margin-top: 0px;
+	margin-right: 220px;
+}
+
+footer .kanan img{
+	width: 80px;
+	height: 80px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+footer .bawah{
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+	font-size: 12px;
+	float: left;
+	margin-top: 120px;
+	text-align: center;
+	border-top: 1px solid gray;
+}
+
+footer .bawah a{
+	text-decoration: none;
+	color: #ff4c54;
+}
+
+/*akhir footer*/

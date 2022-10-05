@@ -1,0 +1,384 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	width: 100%;
+	height: auto;
+}
+
+/*navbar*/
+/**MENU**/
+nav ul .kiri img{
+    margin-left: 20px;
+}
+nav ul li{
+    color: black;
+    font-size: 16px;
+    float: left;
+    list-style: none;
+    font-family: Arial;
+    padding: 12px;
+    padding-top: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li ul {display: none;}
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+}
+nav ul li ul {position: absolute;}
+
+nav ul li ul li {
+    float: none;
+    position: relative;
+    background: white;
+}
+
+nav ul li a:hover {
+    color: turquoise;
+}
+
+nav ul .kanan li img{
+    width: 27px;
+    padding-top: 8px;
+    padding-left: 180px;
+}
+
+nav ul .kanan li h1 {
+    font-family: Arial;
+    color: black;
+    font-size: 16px;
+    padding-left: 215px;
+    margin-top: -48px;
+}
+
+nav .gambar img{
+    width: 30px;
+    background: #ff4c54;
+    padding: 30px 25px;
+    margin-left: 70px;
+    position: relative;
+    float: right;
+}
+
+
+.foto img{
+    margin: auto;
+    width: 100%;
+
+}
+
+.foto .title1{
+    font-size: 200px;
+    font-family: Kabut Hitam;
+    position: absolute;
+    top: 50%;
+    color: white;
+    transform: translate(50%);
+    white-space: nowrap;
+    padding-left: 150px;
+    text-align: center;
+    margin: auto;
+    left: 10%;
+}
+
+.foto .title2{
+    left: 15%;
+}
+
+.foto .title1 .title2{
+    font-size: 20px;
+    font-family: Arial;
+    position: absolute;
+    white-space: nowrap;
+    margin-left: -15px;
+    margin-top: -35px;
+    margin-bottom: 20px;
+}
+
+
+/*slider*/
+.slider{
+	margin: 0px;
+	position: relative;
+}
+
+.slider img{
+	width: 100%;
+	height: 600px;
+	margin-top: 80px;
+}
+
+.slider .judul h1{
+	position: absolute;
+	color: white;
+	font-size: 120px;
+	top: 25%;
+	left: 480px;
+	font-family: brush script mt;
+}
+
+.slider .keterangan p{
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	top: 45%;
+	left: 472px;
+	font-family: arial;
+}
+
+/*akhir slider*/
+
+
+/*peta*/
+iframe{
+	margin: auto;
+	margin-top: 100px;
+	margin-left: 100px;
+	width: 1100px;
+	height: 500px;
+}
+
+/*akhir peta*/
+
+
+/*get in touch*/
+
+.get{
+	overflow: hidden;
+}
+
+.get .kiri{
+	float: left;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+.get .kiri h1{
+	font-size: 40px;
+    font-family: Poppins;
+}
+
+.get .kiri textarea{
+	resize: none;
+	margin-top: 20px;
+	width: 600px;
+	height: 300px;
+	font-size: 20px;
+	border: 1px solid silver;
+	margin-left: 0px;
+
+}
+
+.get .kiri input{
+	float: left;
+	width: 275px;
+	height: 50px;
+	margin-right: 20px;
+	margin-top: 30px;
+	padding-left: 15px;
+	border: 1px solid silver;
+}
+
+.get .kiri .tombol{
+	float: left;
+	margin-top: 50px;
+	background: turquoise;
+}
+
+.get .kiri .tombol h1{
+	font-size: 20px;
+    font-family: Poppins;
+    color: white;
+	padding: 10px 20px;
+
+}
+
+.get .kiri .tombol:hover h1{
+	background: red;
+	color: white;
+}
+
+.get .kanan{
+	float: right;
+	margin-right: 0px;
+	margin-top: 100px;
+	width: 400px;
+}
+
+.get .kanan .all{
+	overflow: hidden;	
+}
+
+.get .kanan .all img{
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+
+.get .kanan .judul h1{
+	font-size: 20px;
+	margin-top: 25px;
+    font-family: Poppins;
+}
+
+.get .kanan .keterangan p{
+	font-size: 20px;
+}
+
+/*akhir get in touch*/
+
+/*footer*/
+footer{
+	margin-top: 150px;
+	width: 100%;
+	height: 540px;
+	background: #00002c;
+	overflow: hidden;
+}
+
+footer h2:hover{
+	color: red;
+}
+
+footer .kiri{
+	float: left;
+	padding-top: 80px;
+	padding-left: 50px;
+}
+
+footer .kiri .x1{
+	float: left;
+}
+
+footer .kiri .x1 img{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+footer .kiri .x1 h1{
+	color: white;
+	margin-top: -80px;
+	margin-left: 100px;
+	font-size: 20px;
+}
+
+footer .kiri .x1 .pengenalan{
+	margin-top: 50px;
+	font-size: 16px;
+}
+
+footer .kiri .x1 .icon img{
+	width: 30px;
+	height: 30px;
+	padding-top: 30px;
+	padding-left: 2px;
+	border-radius: 0px;
+}
+footer .kiri .x1 p{
+	color: white;
+	margin-top: 10px;
+}
+
+footer .kiri .x2{
+	float: right;
+	margin-top: 20px ;
+	margin-left: 100px;
+	font-size: 12px;
+}
+
+footer .kiri .x2 h1{
+	color: white;
+	margin-bottom: 30px;
+}
+
+footer .kiri .x2 h2{
+	color: white;
+	padding-bottom:10px ;
+}
+
+footer .kiri .x2 h2:hover{
+	color: red;
+}
+
+footer .kanan{
+	float: right;
+	overflow: hidden;
+	font-size: 12px;
+	margin-top: 102px;
+}
+
+footer .kanan .x1{
+	float: left;
+	color: white;
+	margin-right: 220px;
+	margin-top: 1px;
+}
+
+footer .kanan .x1 h1{
+	margin-bottom: 25px;
+}
+
+footer .kanan .x1 h2{
+	padding-bottom: 10px;
+}
+
+footer .kanan .x1 .xx1{
+	float: left;
+}
+
+footer .kanan .x1 .xx2{
+	float: right;
+}
+
+footer .kanan .x2{
+	float: right;
+	color: white;
+	margin-left: -100px;
+}
+
+footer .kanan .x2 h1{
+	margin-top: 0px;
+	margin-right: 220px;
+}
+
+footer .kanan img{
+	width: 80px;
+	height: 80px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+footer .bawah{
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+	font-size: 12px;
+	float: left;
+	margin-top: 120px;
+	text-align: center;
+	border-top: 1px solid sienna;
+}
+
+footer .bawah a{
+	text-decoration: none;
+	color: red;
+}
+
+/*akhir footer*/
